@@ -8,6 +8,16 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "TileMap",
+"class": "InteractiveTilemap",
+"language": "GDScript",
+"path": "res://InteractiveTilemap.gd"
+} ]
+_global_script_class_icons={
+"InteractiveTilemap": ""
+}
+
 [application]
 
 config/name="InteractiveTileMap"
