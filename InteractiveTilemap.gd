@@ -36,4 +36,4 @@ func _replace_tile_with_object(tile_pos: Vector2, object_scene: PackedScene, par
 		var ob_pos = map_to_world(tile_pos) + half_cell_size
 		
 		parent.add_child(obj)
-		obj.global_position = ob_pos
+		obj.global_position = to_global(ob_pos)
